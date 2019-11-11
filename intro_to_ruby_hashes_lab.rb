@@ -26,6 +26,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hash.default(0)[key] += 1
+  hash.default = 0
+  
   return hash
 end
