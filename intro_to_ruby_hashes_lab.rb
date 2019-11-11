@@ -3,17 +3,17 @@ def new_hash
 end
 
 def my_hash
-  hash = {first_key: "first value"}
+  hash = {first_key: "first value" }
   return hash
 end
 
 def pioneer
-  hash = {name: "Grace Hopper"}
+  hash = {name: "Grace Hopper" }
   return hash
 end
 
 def id_generator
-  hash = 
+  hash = {id: 93 }
 end
 
 def my_hash_creator(key, value)
